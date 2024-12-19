@@ -18,6 +18,7 @@
 html {
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
     width: 70vw;
     height: 100%;
     margin: 0 auto;
+    overflow: hidden;
 
     display: flex;
 }
@@ -53,14 +55,14 @@ body {
 }
 
 .credit {
-    color: white;
+    color: rgb(194, 194, 194);
     width: fit-content;
     margin: 540px auto;
 }
 
 .credit a:link,
 .credit a:visited {
-    color: white;
+    color: rgb(194, 194, 194);
 }
 
 .credit a:hover,
@@ -71,4 +73,104 @@ body {
 main {
     width: 60%;
     height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.top {
+    height: 35%;
+    font-weight: bold;
+}
+
+.top-text-1,
+.top-text-2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.top-text-1 {
+    padding: 120px 30px 40px;
+}
+
+.top-text-2 {
+    padding: 0 30px;
+}
+
+span {
+    font-style: italic;
+}
+
+form {
+    background-color: white;
+    height: 30%; 
+    padding: 25px 35px;
+    box-shadow: #d1d1d14f 0px 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 28px;
+    color: rgb(50, 50, 50);
+}
+
+fieldset {
+    height: fit-content;
+    border: none;
+    
+    display: flex;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input:first-child {
+    margin-right: 75px;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(87, 87, 87);
+}
+
+input {
+    height: 1.5rem;
+    width: 240px;
+}
+
+.bottom {
+    height: 35%;
+}
+
+button[type="submit"] {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #274472;
+    box-shadow: #a0a0a04f 2px 2px;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 30px;
+    margin: 30px 40px;
+}
+
+.log-in {
+    margin: 10px 40px;
+}
+
+.log-in a:link,
+.log-in a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #274472;
+}
+
+.log-in a:hover,
+.log-in a:active {
+    color: #3c66a8;
 }

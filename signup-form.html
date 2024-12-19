@@ -26,24 +26,36 @@
             <form>
                 <h1>Let's do this!</h1>
                 <fieldset class="names">
-                    <label for="first-name">First name</label>
-                    <input type="text" id="first-name" name="firstName" maxLength="15" />
-                    <label for="last-name">Last name</label>
-                    <input type="text" id="last-name" name="lastName" maxLength="15" />
+                    <div class="label-input">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="firstName" maxLength="15" />
+                    </div>
+                    <div class="label-input">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" name="lastName" maxLength="15" />
+                    </div>
                 </fieldset>
 
                 <fieldset class="email-phone">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email"/>
-                    <label for="phone-number">Phone number</label>
-                    <input type="tel" id="phone-number" name="phoneNumber"/>
+                    <div class="label-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"/>                        
+                    </div>
+                    <div class="label-input">
+                        <label for="phone-number">Phone number</label>
+                        <input type="tel" id="phone-number" name="phoneNumber"/>
+                    </div>
                 </fieldset>
 
                 <fieldset class="passwords">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password"/>
-                    <label for="confirm-password">Confirm password</label>
-                    <input type="password" id="confirm-password" name="confirm-password"/>
+                    <div class="label-input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password"/>
+                    </div>
+                    <div class="label-input">
+                        <label for="confirm-password">Confirm password</label>
+                        <input type="password" id="confirm-password" name="confirm-password"/>
+                    </div>
                 </fieldset>
             </form>
 
