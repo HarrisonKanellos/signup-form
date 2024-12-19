@@ -7,6 +7,20 @@
     font-style: normal;
 }
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
 .banner-text {
     display: inline;
+}
+
+body {
+    width: 80vw;
+    height: 100%;
+    background-color: white;
 }
