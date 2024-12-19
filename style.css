@@ -141,6 +141,17 @@ label {
 input {
     height: 1.5rem;
     width: 240px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid #0d4cb3;
+    box-shadow: #a3a3a3 1px 1px;
+}
+
+input:invalid {
+    border: 1px solid #fc3333;
 }
 
 .bottom {
