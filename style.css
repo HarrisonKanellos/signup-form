@@ -151,7 +151,7 @@ input:focus {
     box-shadow: #a3a3a3 1px 1px 5px;
 }
 
-input:invalid {
+input:invalid:not(:focus) {
     border: 1px solid #fc3333;
 }
 
