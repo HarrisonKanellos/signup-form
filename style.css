@@ -103,7 +103,7 @@ form {
     background-color: white;
     height: 30%; 
     padding: 25px 35px;
-    box-shadow: #d1d1d14f 0px 5px;
+    box-shadow: #d1d1d14f 0px 5px 5px 2px;
 
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@ input {
 input:focus {
     outline: none;
     border: 1px solid #0d4cb3;
-    box-shadow: #a3a3a3 1px 1px;
+    box-shadow: #a3a3a3 1px 1px 5px;
 }
 
 input:invalid {
@@ -164,7 +164,7 @@ button[type="submit"] {
     font-size: 1.2rem;
     font-weight: bold;
     background-color: #274472;
-    box-shadow: #a0a0a04f 2px 2px;
+    box-shadow: #646464 2px 2px 4px;
     border: none;
     border-radius: 6px;
     padding: 12px 30px;
